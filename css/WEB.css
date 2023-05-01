@@ -1,0 +1,108 @@
+
+body {
+  background-image: url("background-image.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Style the header */
+header {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the navigation menu */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  color: #555555;
+  text-decoration: none;
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+nav a:hover {
+  color: #333333;
+}
+
+/* Style the main content area */
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+}
+
+.main-content h1 {
+  font-size: 50px;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.main-content p {
+  font-size: 20px;
+  color: #ffffff;
+  line-height: 1.5;
+}
+
+/* Style the call-to-action button */
+.cta-button {
+  display: inline-block;
+  background-color: #555555;
+  color: #ffffff;
+  font-size: 18px;
+  padding: 15px 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #333333;
+}
+
+/* Style the About section */
+.about-section {
+  padding: 50px;
+}
+
+.about-section h2 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.about-section h4 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.about-section p {
+  font-size: 18px;
+  color: #555555;
+  line-height: 1.5;
+}
+
+.about-section .logo {
+  font-size: 64px;
+  color: #555555;
+}
+
+/* Style the footer */
+footer {
+  background-color: #f5f5f5;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+  font-size: 14px;
+  color: #555555;
+  margin-bottom: 0;
+}
